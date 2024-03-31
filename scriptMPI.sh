@@ -11,6 +11,6 @@
 
 ml Galario/1.2.1
 ml impi
-cd ~/GalarioFitting
+cd ~/protoplanetary-uv-plane-disk-fitting
 
 srun -n $SLURM_NTASKS python OptimizationGalarioMPI.py --nwalkers 560 --iterations 1000 --suffix _MPI

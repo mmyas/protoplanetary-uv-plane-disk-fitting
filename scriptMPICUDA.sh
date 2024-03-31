@@ -14,6 +14,6 @@ ml fosscuda/2019b Galario/1.2.1
 
 ml impi
 
-cd ~/GalarioFitting
+cd ~/protoplanetary-uv-plane-disk-fitting
 
 srun -n 11 python OptimizationGalarioMPI.py --cuda --nwalkers 560 --iterations 1000 --suffix _MPIC

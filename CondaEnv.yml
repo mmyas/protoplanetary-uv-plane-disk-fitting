@@ -1,4 +1,4 @@
-name: GalarioFitting
+name: protoplanetary-uv-plane-disk-fitting
 channels:
   - conda-forge
   - defaults

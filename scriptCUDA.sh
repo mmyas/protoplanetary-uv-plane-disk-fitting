@@ -13,6 +13,6 @@
 
 ml fosscuda/2019b Galario/1.2.1
 
-cd ~/GalarioFitting
+cd ~/protoplanetary-uv-plane-disk-fitting
 
 python OptimizationGalario.py --nwalkers 560 --iterations 1000 --suffix _CUDA2 --cuda --nthreads 11 --resume results/optimization/optigal_13_560_3000_CUDA.npy
